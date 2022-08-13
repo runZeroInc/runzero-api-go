@@ -22,7 +22,3 @@ _testmain.go
 *.exe
 *.test
 *.prof
-
-.idea/
-.swagger-codegen-ignore
-.swagger-codegen/
