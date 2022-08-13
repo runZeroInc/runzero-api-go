@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/RumbleDiscovery/runzero-api-go"
+	"github.com/runZeroInc/runzero-api-go"
 )
 
 const (
