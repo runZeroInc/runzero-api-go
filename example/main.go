@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	runzeroapi "github.com/runZeroInc/runzero-api-go"
-	rc "github.com/runZeroInc/runzero-api-go/client"
+	runzeroapi "github.com/RumbleDiscovery/runzero-api-go"
+	rc "github.com/RumbleDiscovery/runzero-api-go/client"
 )
 
 const defaultTimeout = time.Second * 10
