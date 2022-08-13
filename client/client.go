@@ -16,7 +16,7 @@ const (
 
 // Config provides overrides the API host and key
 type Config struct {
-	// URL of the runZero API; otherwise, defaultAPIURL is used
+	// URL of the Rumble API; otherwise, defaultAPIURL is used
 	URL string
 	// Key is the API key used for the session; otherwise, access is restricted to publicly accessible endpoints
 	Key string
