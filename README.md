@@ -68,7 +68,7 @@ ctx = context.WithValue(context.Background(), sw.ContextOperationServerVariables
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://console.rumble.run/api/v1.0*
+All URIs are relative to *https://console.runzero.com/api/v1.0*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
@@ -171,5 +171,5 @@ Each of these functions takes a value of the given basic type and returns a poin
 
 ## Author
 
-support@rumble.run
+support@runzero.com
 

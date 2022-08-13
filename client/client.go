@@ -3,8 +3,6 @@ package client
 import (
 	"fmt"
 	"os"
-
-	"github.com/RumbleDiscovery/runzero-api-go"
 )
 
 const (
