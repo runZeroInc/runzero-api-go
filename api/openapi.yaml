@@ -2,14 +2,14 @@ openapi: 3.0.0
 info:
   contact:
     email: support@runzero.com
-  description: Rumble Network Discovery API
+  description: runZero Network Discovery API
   license:
     name: Commercial
     url: https://runzero.com/terms
-  title: Rumble API
+  title: runZero API
   version: 1.0.4
 servers:
-- description: Rumble Console
+- description: runZero Console
   url: https://console.runzero.com/api/v1.0
 tags:
 - description: Requires Organization Key

@@ -12,7 +12,7 @@ type Config struct {
 	Key string
 }
 
-// NewClient retuns a ready to use Rumble API Client
+// NewClient retuns a ready to use runZero API Client
 func NewClient(c *Config) *rapi.APIClient {
 
 	// Configure the endpoint host
@@ -40,7 +40,7 @@ func NewClient(c *Config) *rapi.APIClient {
 	config.Servers = rapi.ServerConfigurations{
 		{
 			URL:         apiURL,
-			Description: "Rumble Console",
+			Description: "runZero Console",
 		},
 	}
 

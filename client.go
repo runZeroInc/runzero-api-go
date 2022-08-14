@@ -1,7 +1,7 @@
 /*
- * Rumble API
+ * runZero API
  *
- * Rumble Network Discovery API
+ * runZero Network Discovery API
  *
  * API version: 1.0.4
  * Contact: support@runzero.com
@@ -40,7 +40,7 @@ var (
 	xmlCheck  = regexp.MustCompile(`(?i:(?:application|text)/xml)`)
 )
 
-// APIClient manages communication with the Rumble API API v1.0.4
+// APIClient manages communication with the runZero API API v1.0.4
 // In most cases there should be only one, shared, APIClient.
 type APIClient struct {
 	cfg    *Configuration

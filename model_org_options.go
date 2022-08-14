@@ -1,7 +1,7 @@
 /*
- * Rumble API
+ * runZero API
  *
- * Rumble Network Discovery API
+ * runZero Network Discovery API
  *
  * API version: 1.0.4
  * Contact: support@runzero.com
