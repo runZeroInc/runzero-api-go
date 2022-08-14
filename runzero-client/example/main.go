@@ -16,7 +16,7 @@ func main() {
 	ctx := context.Background()
 	client := rc.NewClient(&rc.Config{})
 
-	log.Printf("Rumble Components")
+	log.Printf("runZero Components")
 	log.Printf("=================")
 	areq := client.PublicApi.GetLatestAgentVersion(ctx)
 	aver, res, err := areq.Execute()

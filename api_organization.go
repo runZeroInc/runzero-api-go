@@ -657,16 +657,16 @@ func (a *OrganizationApiService) GetKey(ctx _context.Context) apiGetKeyRequest {
 
 /*
 Execute executes the request
- @return RumbleAPIKey
+ @return RunZeroAPIKey
 */
-func (r apiGetKeyRequest) Execute() (RumbleAPIKey, *_nethttp.Response, error) {
+func (r apiGetKeyRequest) Execute() (RunZeroAPIKey, *_nethttp.Response, error) {
 	var (
 		localVarHTTPMethod   = _nethttp.MethodGet
 		localVarPostBody     interface{}
 		localVarFormFileName string
 		localVarFileName     string
 		localVarFileBytes    []byte
-		localVarReturnValue  RumbleAPIKey
+		localVarReturnValue  RunZeroAPIKey
 	)
 
 	localBasePath, err := r.apiService.client.cfg.ServerURLWithContext(r.ctx, "OrganizationApiService.GetKey")

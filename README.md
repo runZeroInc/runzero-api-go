@@ -1,4 +1,4 @@
-# Go API client for Rumble Network Discovery
+# Go API client for runZero Network Discovery
 
 runZero Network Discovery API
 
