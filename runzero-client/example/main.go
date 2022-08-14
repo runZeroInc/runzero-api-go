@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	rc "github.com/runZeroInc/runzero-api/go/runzero-client"
+	rc "github.com/runZeroInc/runzero-api-go/runzero-client"
 )
 
 func main() {

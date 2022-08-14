@@ -3,7 +3,7 @@ package client
 import (
 	"os"
 
-	rapi "github.com/runZeroInc/runzero-api/go"
+	rapi "github.com/runZeroInc/runzero-api-go"
 )
 
 // Config provides overrides the API host and key
